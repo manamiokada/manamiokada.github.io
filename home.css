@@ -11,12 +11,17 @@ body {
 	position: relative;
 }
 
+.img-hover {
+	position: relative;
+	float: left;
+}
+
 .text-content {
 	position: absolute;
-	top: 1;
+	text-align: center;
 	bottom: 0;
-	left:1;
 	right: 0;
+	width: 100%
 	color: #fff;
 	visibility: hidden;
 	opacity: 0;
