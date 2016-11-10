@@ -1,0 +1,48 @@
+body {
+	background-color: #c7b4b4;
+	font-family: Pangram;
+	color: #fff;
+}
+
+.no-padding {
+	padding: 0 !important;
+	margin: 0 !important;
+	position: relative;
+}
+
+.text-content {
+	position: absolute;
+	top: 1;
+	bottom: 0;
+	left:1;
+	right: 0;
+	background: (0, 0, 0, 0.5);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.img-hover:hover {
+	opacity: 0.75;
+}
+
+footer {
+	border-top: 1px solid
+}
+
+.no-padding:hover .text-content {
+	visibility: visible;
+	opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+	.content {
+		padding-left: 400px;
+		padding-right: 400px;
+	}
+}
+
+@font-face {
+	font-family: Pangram;
+	src: url('fonts/Pangram-Light.otf') format('opentype');
+}
