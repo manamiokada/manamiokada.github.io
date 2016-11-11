@@ -27,7 +27,7 @@ body {
 	opacity: 0;
 }
 
-.logo {
+#canon-logo {
 	border: 7px solid;
 	border-color: #ffffff;
 }
@@ -44,6 +44,15 @@ body {
 .no-padding:hover .text-content {
 	visibility: visible;
 	opacity: 1;
+}
+
+.description-header {
+	font-weight: bold;
+}
+
+.text-description {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 @media only screen and (min-width: 768px) {
