@@ -47,12 +47,17 @@ body {
 }
 
 .description-header {
+	padding: 10px;
 	font-weight: bold;
 }
 
 .text-description {
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding: 10px;
+}
+
+.content {
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 @media only screen and (min-width: 768px) {
