@@ -27,6 +27,10 @@ body {
 	opacity: 0;
 }
 
+.logo {
+	margin-bottom: 5px;
+}
+
 #canon-logo {
 	border: 7px solid;
 	border-color: #ffffff;
@@ -41,18 +45,22 @@ body {
 	bottom: 0;
 }
 
+.text-block {
+	margin-top: 20px;
+}
+
 .no-padding:hover .text-content {
 	visibility: visible;
 	opacity: 1;
 }
 
 .description-header {
-	padding: 10px;
 	font-weight: bold;
 }
 
 .text-description {
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .content {
