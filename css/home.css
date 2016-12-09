@@ -145,6 +145,7 @@ a:focus {
 	height: auto;
 	margin: auto;
 	vertical-align: middle;
+	box-shadow: 3px 2px 2px #000000;
 }
 
 .color-bg {
