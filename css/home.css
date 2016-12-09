@@ -59,6 +59,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
 	font-weight: 700;
+	outline: none;
 }
 
 .navbar-custom a {
@@ -69,6 +70,7 @@ a:focus {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
+  outline: none;
 }
 .navbar-custom .nav li a:hover {
   color: rgba(255, 255, 255, 0.3);
