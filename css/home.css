@@ -1,27 +1,39 @@
 body {
-	width: 100%;
-	height: 100%;
-	background-color: white;
-	font-family: Pangram, sans-serif;
-	color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: Pangram, sans-serif;
+  color: rgb(102, 102, 102);
+}
+
+#title {
+  font-family: AbrilFatface;
+}
+
+#blurb {
 }
 
 html {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	margin: 0 0 35px;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 1px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 20px 0 20px;
+  /* text-transform: ; */
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 p {
-	margin: 0 0 25px;
-	font-size: 18px;
-	line-height: 1.5;
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media (min-width: 768px) {
@@ -33,7 +45,7 @@ p {
 }
 
 a {
-  color: #4B4C4C;
+  color: #4b4c4c;
   /*#D2D6D6*/
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -47,23 +59,23 @@ a:focus {
 }
 
 .navbar-custom {
-	margin-bottom: 0;
-	text-transform: uppercase;
-	background: #827162;
+  margin-bottom: 0;
+  /* text-transform: uppercase; */
+  background: #eadbdb;
 }
 
 .navbar-custom .navbar-toggle {
-	color: white;
-	font-size: 12px;
+  color: rgb(102, 102, 102);
+  font-size: 12px;
 }
 
 .navbar-custom .navbar-brand {
-	font-weight: 700;
-	outline: none;
+  font-weight: 700;
+  outline: none;
 }
 
 .navbar-custom a {
-	color: white;
+  color: rgb(102, 102, 102);
 }
 
 .navbar-custom .nav li a {
@@ -73,13 +85,13 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgb(102, 102, 102);
   outline: none;
   background-color: transparent;
 }
 
 .navbar-custom .nav li.active a {
- background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 @media (min-width: 768px) {
@@ -87,43 +99,43 @@ a:focus {
     padding: 13px 0;
     border-bottom: none;
     letter-spacing: 1px;
-    background-color: rgba(130, 113, 98, 0.5);
+    background-color: #eadbdb;
     -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
     transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
   }
   .navbar-custom.nav-solid {
     padding: 0;
-    background: #827162;
+    background: #eadbdb;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
 .intro {
-	display: table;
-	width: 100%;
-	height: auto;
-	padding: 100px 0;
-	text-align: center;
-	color: white;
-	background: url(../images/IMG_2379-min.JPG) no-repeat bottom center scroll;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: rgb(102, 102, 102);
+  background: url(../images/IMG_2379-min.JPG) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .intro .intro-body {
-	display: table-cell;
-	vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .intro .intro-body .heading {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .intro .intro-body .intro-text {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 @media (min-width: 768px) {
@@ -137,56 +149,67 @@ a:focus {
 }
 
 .content-section {
-	padding-top: 100px;
-	padding-bottom: 50px;
-	color: rgba(0, 0, 0, 0.5);
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: rgb(102, 102, 102);
 }
 
 .img-thumb {
-	width: 200px;
-	height: auto;
-	margin: auto;
-	vertical-align: middle;
-	box-shadow: 3px 2px 2px #000000;
+  width: 200px;
+  height: auto;
+  margin: auto;
+  vertical-align: middle;
+  border: 2px solid rgb(134, 134, 134);
+  /* border-width: 2px; */
+  /* box-shadow: 3px 2px 2px #000000; */
+}
+
+#avatar {
+  /* top: 50%;
+  transform: translateY(40%); */
 }
 
 .color-bg {
-	background: #9B8D81;
-	color: white;
+  background: #eadbdb;
+  color: rgb(102, 102, 102);
 }
 
 .banner {
-	width: 100%;
-	height: 350px;
-	margin-left: 0;
-	margin-right: 0;
-	background: url(../images/pdx-bluestar-min.jpg) no-repeat center center scroll;
-	background-size: cover;
-
+  width: 100%;
+  height: 350px;
+  margin-left: 0;
+  margin-right: 0;
+  background: url(../images/pdx-bluestar-min.jpg) no-repeat center center scroll;
+  background-size: cover;
 }
 .btn {
-	border-radius: 0;
-	font-size: 35px;
+  border-radius: 0;
+  font-size: 35px;
 }
 
 footer {
-	padding 50;
+  padding: 50;
 }
 
 footer p {
-	margin: 0;
-	color: rgba(0, 0, 0, 0.5);
-	font-size: 16px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 768px) {
-	.content {
-		padding-left: 400px;
-		padding-right: 400px;
-	}
+  .content {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
 }
 
 @font-face {
-	font-family: Pangram;
-	src: url('../fonts/Pangram-Light.otf') format('opentype');
+  font-family: Pangram;
+  src: url("../fonts/Pangram-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AbrilFatface;
+  src: url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
 }
